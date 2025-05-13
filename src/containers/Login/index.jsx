@@ -36,7 +36,7 @@ export function Login() {
       {
         pending: 'Realizando login...',
         success: 'Login realizado com sucesso!',
-        error: 'Email ou senha Incorretos!'
+        error: 'Email ou senha Incorretos, tente novamente!'
       },
     );
 
