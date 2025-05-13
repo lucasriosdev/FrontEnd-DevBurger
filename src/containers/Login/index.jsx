@@ -75,7 +75,7 @@ export function Login() {
 
         </Form>
 
-        <p>Não possui conta? <a>Clique aqui</a></p>
+        <p>Não possui conta? <a>Clique aqui e se cadastre</a></p>
       </RightContainer>
     </Container>
   );
