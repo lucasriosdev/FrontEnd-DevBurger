@@ -14,7 +14,7 @@ export function Login() {
 
   const schema = yup
     .object({
-      email: yup.string().email('Digite um e-mail válido').required('O e-mail é obrigatório'),
+      email: yup.string().email('Digite um e-mail válido').required('O e-mail é obrigatório, adicione um '),
       password: yup.string().min(6, 'A senha deve ter pelo menos 6 caracteres').required('Digite uma senha'),
     })
     .required()
